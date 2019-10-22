@@ -10,6 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TC005_Request_Authentication {
+
   @Test
   public void AuthorizationTest(){
     RestAssured.baseURI = "http://restapi.demoqa.com/authentication/CheckForAuthentication";
